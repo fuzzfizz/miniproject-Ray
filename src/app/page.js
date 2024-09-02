@@ -82,7 +82,7 @@ const HomePage = () => {
             <div className="card-body d-flex flex-column">
               <h5 className="card-title border border-dark p-2 rounded">SANG & LED SANG</h5>
               <p className="card-text">
-                <strong>SANG:</strong> {data[0]?.SANG || 'Loading...'} cm
+                <strong>SANG:</strong> {data[0]?.SANG || 'Loading...'} lux
               </p>
               <p className="card-text">
                 <strong>LED SANG:</strong> {data[0]?.SANG_LED || 'Loading...'}
@@ -97,7 +97,7 @@ const HomePage = () => {
             <div className="card-body d-flex flex-column">
               <h5 className="card-title border border-dark p-2 rounded">UNP & LED UNP</h5>
               <p className="card-text">
-                <strong>UNP:</strong> {data[0]?.UNP || 'Loading...'}
+                <strong>UNP:</strong> {data[0]?.UNP || 'Loading...'} &#176;
               </p>
               <p className="card-text">
                 <strong>LED UNP:</strong> {data[0]?.UNP_LED || 'Loading...'}
